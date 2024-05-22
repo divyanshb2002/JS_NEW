@@ -1,27 +1,48 @@
-#exampleSlider {
+#abt-img {
+  max-width: 546px;
+  min-width: 0px;
   position: relative;
-  border: 0px;
-  border-color: transparent;
+  animation: move 8s infinite;
+}
+
+@keyframes move {
+  0% {
+      top: 0;
+  }
+
+  50% {
+      top: 25px;
+  }
+
+  100% {
+      top: 0;
+  }
+}
+
+#exampleSlider {
+  position: relative;      /* recommended */
 }
 
 #exampleSlider .MS-content {
-  margin: 20px 8%;
-  overflow: hidden;
-  white-space: nowrap;
+  white-space: nowrap;     /* required */
+  overflow: hidden;        /* required */
+  margin-top: 10px;
+  margin-inline: 160px;
 }
 
 #exampleSlider .MS-content .item {
-    display: inline-block;
-    width: 25%;
-    position: relative;
-    vertical-align: middle;
-    overflow: auto;
-    white-space: nowrap; 
+  display: inline-block;   /* required */
+  width: 23.5%;              /* required * Determines number of visible slides */
+  position: relative;      /* required */
+  vertical-align: top;     /* required */
+  overflow: hidden;        /* required */
+  height: 100%;          /* recommended */
+  white-space: normal;     /* recommended */
 }
 
 #exampleSlider .MS-content .item img {
-  vertical-align: middle;
-  width: 20%;
+  width: 25%;
+  margin: 0px;
 }
 
 hr.colored {
