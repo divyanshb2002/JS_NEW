@@ -11,99 +11,84 @@
     <link href="../../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="./custom.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid" style="background-color: darkslateblue; display: flex; flex-wrap: wrap;">
-            <div style="display: table; width:100%; height: fit-content;">
-                <div style="display: table-row;">
-                    <div style="display: table-cell; width: 70%;">
-                        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkslateblue;">
-                            <a class="navbar-brand" href="./index.html" style="padding-left: 11%;">
-                                <h1 class="sitename">ARSHA</h1>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent"
-                                style="display: table-cell; width: 60%; padding-left: 20%;">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#hero">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#services">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#portfolio">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#team">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./index.html#pricing">Pricing</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Dropdown-1</a></li>
-                                            <li>
-                                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown-submenu">Deep Dropdown</a>
-                                                <ul class="dropdown-menu dropdown-submenu">
-                                                    <li><a class="dropdown-item" href="#">Deep Dropdown-1</a></li>
-                                                    <li><a class="dropdown-item" href="#">Deep Dropdown-2</a></li>
-                                                    <li><a class="dropdown-item" href="#">Deep Dropdown-3</a></li>
-                                                    <li><a class="dropdown-item" href="#">Deep Dropdown-4</a></li>
-                                                    <li><a class="dropdown-item" href="#">Deep Dropdown-4</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Dropdown-2</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown-3</a></li>
-                                            <li><a class="dropdown-item" href="#">Dropdown-4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div style="display: table-cell; width: 30%; float: right;">
-                        <button type="button" class="btn btn-primary" style="border-radius: 5rem;">Get Started</button>
-                    </div>
+    <header id="hero" style="top: 0;">
+        <div style="background-color: darkslateblue; display: flex; flex-direction: row; flex-wrap: wrap;">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(72, 61, 139, 0.92); position: fixed; width: 100%; overflow-y: visible; z-index: 100; top: 0;">
+                <a class="navbar-brand" href="./index.html" style="padding-left: 11%;">
+                    <h1 class="sitename">ARSHA</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent"
+                    style="display: table-cell; width: 60%; padding-left: 20%;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dropdown-1</a></li>
+                                <li>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown-submenu">Deep Dropdown</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li><a class="dropdown-item" href="#">Deep Dropdown-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Dropdown-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Dropdown-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Dropdown-4</a></li>
+                                        <li><a class="dropdown-item" href="#">Deep Dropdown-4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Dropdown-2</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown-3</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown-4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+                <button type="button" class="btn btn-primary" style="border-radius: 5rem; margin-right: 8rem;">Get Started</button>
+            </nav>
         </div>
     </header>
-    <main id="main-section">
-        <section style="background-color: slategrey; flex-wrap: wrap;">
-            <div class="container" style="overflow: visible;">
-                <div style="display: table;">
-                    <div style="display: table-row;">
-                        <div class="about" style="display: table-cell; width: 50%; vertical-align: middle;">
-                            <pre><h1><b>Better Solutions For Your<br>Business</b></h1><br><h3>We are the team of talented designers<br>making websites with Bootstrap</h3></pre>
-                            <button type="button" class="btn btn-primary" style="border-radius: 5rem;">Get
-                                Started</button>
-                            <a href="./video.html" style="text-decoration: none; color: white;">
-                                <i class="bi bi-play-circle"></i>
-                                <span>Watch Video</span>
-                            </a>
-                        </div>
-                        <div class="about-image"
-                            style="display: table-cell; width: 50%; vertical-align: middle; padding-left: 15%;">
-                            <img src="./about.jpg" id="abt-img" alt="hovering image">
-                        </div>
-                    </div>
+    <main id="main-section" style="margin-top: 80px;">
+        <section style="height: 100vh; width: 100vw; object-fit: fill; background-color: slategrey; overflow: visible;">
+            <div style="display: grid; grid-template-columns: 50% 50%; overflow: visible; padding-top: 100px;">
+                <div style="align-content: center; padding-left: 10rem; vertical-align: middle;">
+                    <p><h1 style="font-size: 50px;"><b>Better Solutions For Your<br>Business</b></h1><br><h3>We are the team of talented designers<br>making websites with Bootstrap</h3></p>
+                    <button type="button" class="btn btn-primary" style="border-radius: 5rem; font-size: 20px; color: white;"><b>Get Started</b></button>
+                    <a href="./video.html" style="text-decoration: none; font-size: 20px; color: rgb(255, 255, 255); vertical-align: middle; margin-left: 20px;">
+                        <i class="bi bi-play-circle"></i>
+                        <span><b>Watch Video</b></span>
+                    </a>
+                </div>
+                <div class="img-fluid" style="padding-left: 5rem;">
+                    <img src="./about.jpg" id="abt-img" class="img-fluid" alt="hovering image">
                 </div>
             </div>
         </section>
@@ -140,49 +125,559 @@
                     <div class="item">
                         <img src="./client-6.png" alt="client-6">
                     </div>
+                    <div class="item">
+                        <img src="./client-7.png" alt="client-6">
+                    </div>
+                    <div class="item">
+                        <img src="./client-8.png" alt="client-6">
+                    </div>
                 </div>
+        </section>
+        <br>
+        <section id="about" class="about section">
+            <div style="padding-top: 5rem;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>ABOUT US</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 50% 50%; padding: 5rem;">
+                <div>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                        <ul style="list-style-image: url('check2-circle.svg');">
+                            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li>Ullamco laboris nisi ut aliquip ex ea commodo</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <br>
+                        <a class="btn btn-outline-info" href="./index.html#hero" role="button" style="padding-inline: 2rem; border-width: 2px;">Read more <i class="bi bi-arrow-right"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 60% 40%; padding: 2.5rem;">
+                <div>
+                    <h1 style="color: darkblue; text-align: justify-left;">
+                        Eum ipsam laborum deleniti <b>velit pariatur architecto aut nihil</b>
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Duis aute irure dolor in reprehenderit
+                    </p>
+                    <br>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="color: skyblue;">
+                                <b>01 Non consectetur a erat nam at lectus urna duis?</b>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                            </div>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="color: skyblue;">
+                              <b>02 Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</b>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="color: skyblue;">
+                              <b>03 Dolor sit amet consectetur adipiscing elit pellentesque?</b>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <img src="./server.jpg" class="img-fluid" alt="why-us-image">
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 45% 55%; padding: 2.5rem;">
+                <div>
+                    <img src="./skills.png" class="img-fluid" alt="skills-image" style="width: auto; height: auto;">
+                </div>
+                <div>
+                    <h1 style="color: darkblue;"><b>Voluptatem dignissimos provident quasi corporis voluptas</b></h1>
+                    <p>
+                        <i>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </i>
+                    </p>
+                    <p style="font-weight: bold; margin: 2px;">HTML</p>
+                    <div class="progress" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%; background-color: darkblue;">100%</div>
+                    </div><br>
+                    <p style="font-weight: bold; margin: 2px;">CSS</p>
+                    <div class="progress" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%; background-color: darkblue;">90%</div>
+                    </div><br>
+                    <p style="font-weight: bold; margin: 2px;">JAVASCRIPT</p>
+                    <div class="progress" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%; background-color: darkblue;">75%</div>
+                    </div><br>
+                    <p style="font-weight: bold; margin: 2px;">PHOTOSHOP</p>
+                    <div class="progress" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 55%; background-color: darkblue;">55%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="services">
+            <div class="container-fluid" style="align-content: center; padding-top: 5rem;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>SERVICES</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+                <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <br>
+                <div style="display: grid; grid-template-columns: 25% 25% 25% 25%;">
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <div class="card" style="max-width: 18rem;">
+                            <a href="./service_details.html" style="text-decoration: none;">
+                                <img src="./activity.svg" style="width: 3rem; margin-left: 1rem; margin-top: 1rem;" class="card-img-top" alt="#">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: darkblue;">Lorem Ipsum</h5>
+                                    <p class="card-text" style="color: black;">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./service_details.html" style="text-decoration: none;">
+                                <img src="./bounding-box-circles.svg" style="width: 3rem; margin-left: 1rem; margin-top: 1rem;" class="card-img-top" alt="#">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: darkblue;">Sed ut perspici</h5>
+                                    <p class="card-text" style="color: black;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./service_details.html" style="text-decoration: none;">
+                                <img src="./calendar-week-fill.svg" style="width: 3rem; margin-left: 1rem; margin-top: 1rem;" class="card-img-top" alt="#">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: darkblue;">Magni Dolores</h5>
+                                    <p class="card-text" style="color: black;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./service_details.html" style="text-decoration: none;">
+                                <img src="./broadcast.svg" style="width: 3rem; margin-left: 1rem; margin-top: 1rem;" class="card-img-top" alt="#">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="color: darkslateblue;">Nemo Enim</h5>
+                                    <p class="card-text" style="color: black;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div id="cta" style="display: grid; grid-template-columns: 70% 30%; padding: 8%; background: darkslateblue; color: white;">
+                <div style="display: flexbox; align-items: center; justify-content: center;">
+                    <h2><b>Call To Action</b></h2><br>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div style="display: flex; align-items: center; justify-content: right;">
+                    <button type="button" class="btn btn-outline-light" style=" border-width: 3px; border-radius: 100px; padding-inline: 40px; padding-top: 10px; padding-bottom: 10px;">Call To Action</button>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="team">
+            <div class="container-fluid" style="align-items: center; padding-top: 5rem;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>TEAM</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+                <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+            <div style="display: grid; grid-template-columns: 50% 50%; grid-template-rows: 50% 50%; margin-right: 10%; margin-left: 10%; justify-content: center; align-items: center;">
+                <div style="display: grid; grid-template-columns: 30% 70%; align-items: center; margin: 5%;">
+                    <div>
+                        <img src="./walter.jpg" width="80%" style="border-radius: 100%;" alt="ceo">
+                    </div>
+                    <div>
+                        <h4 style="color: darkslateblue;">Walter White</h4>
+                        <h6>Chief Executive Officer</h6><br>
+                        <p style="font-weight: lighter;">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                        <div style="display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;">
+                            <div>
+                                <i class="bi bi-twitter-x"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 30% 70%; align-items: center; margin: 5%;">
+                    <div>
+                        <img src="./sarah.jpg" width="80%" style="border-radius: 100%;" alt="pm">
+                    </div>
+                    <div>
+                        <h4 style="color: darkslateblue;">Sarah Jhonson</h4>
+                        <h6>Product Manager</h6><br>
+                        <p style="font-weight: lighter;">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                        <div style="display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;">
+                            <div>
+                                <i class="bi bi-twitter-x"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 30% 70%; align-items: center; margin: 5%;">
+                    <div>
+                        <img src="./william.jpg" width="80%" style="border-radius: 100%;" alt="ceo">
+                    </div>
+                    <div>
+                        <h4 style="color: darkslateblue;">William Anderson</h4>
+                        <h6>CTO</h6><br>
+                        <p style="font-weight: lighter;">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                        <div style="display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;">
+                            <div>
+                                <i class="bi bi-twitter-x"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 30% 70%; align-items: center; margin: 5%;">
+                    <div>
+                        <img src="./amanda.jpg" width="80%" style="border-radius: 100%;" alt="ceo">
+                    </div>
+                    <div>
+                        <h4 style="color: darkslateblue;">Amanda Jepson</h4>
+                        <h6>Accountant</h6><br>
+                        <p style="font-weight: lighter;">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                        <div style="display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;">
+                            <div>
+                                <i class="bi bi-twitter-x"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="pricing" style="align-items: center; width: 100%;">
+            <div class="container-fluid" style="align-items: center; padding-top: 5rem; width: 100%;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>PRICING</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+                <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+            <br>
+            <div class="container-fluid" style="width: 100%;display: grid; grid-template-columns: 33.32% 33.36% 33.32%; column-gap: 20px; padding-inline: 120px; background-color: rgba(30, 0, 255, 0.062);">
+                <div class="card" style="background-color: rgb(255, 255, 255); padding: 50px; border-width: 1px; border-color: rgba(195, 194, 194, 0.5); border-radius: 20px;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: darkslateblue;">Free Plan</h5>
+                        <h1 style="font-size: 50px; color: skyblue;"><sup>$</sup>0 <sub style="font-size: 15px; color: slategray;">/ month</sub></h1>
+                        <ul class="list-unstyled" style="color: slategray;">
+                            <li><i class="text-success bi bi-check h4"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nulla at volutpat diam uteera</li>
+                            <li><i class="text-secondary bi bi-x h4"></i></i><s>Pharetra massa massa ultricies</s></li>
+                            <li><i class="text-secondary bi bi-x h4"></i></i><s>Massa ultricies mi quis hendrerit</s></li>
+                        </ul><br><br>
+                        <button type="button" class="btn btn-outline-info" style="border-radius: 20px; padding-inline: 35px;"><b>Buy Now</b></button>
+                    </div>
+                </div>
+                <div class="card" style="background-color: rgb(255, 255, 255); padding: 50px; box-shadow: 0px -5px; color: skyblue; border-width: 1px; border-color: rgba(195, 194, 194, 0.5); border-radius: 20px;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: darkslateblue;">Business Plan</h5>
+                        <h1 style="font-size: 50px; color: skyblue;"><sup>$</sup>29 <sub style="font-size: 15px; color: slategray;">/ month</sub></h1>
+                        <ul class="list-unstyled" style="color: slategray;">
+                            <li><i class="text-success bi bi-check h4"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nulla at volutpat diam uteera</li>
+                            <li><i class="text-success bi bi-check h4"></i></i>Pharetra massa massa ultricies</li>
+                            <li><i class="text-success bi bi-check h4"></i></i>Massa ultricies mi quis hendrerit</li>
+                        </ul><br><br>
+                        <button class="text-light btn btn-info" type="submit" style="border-radius: 20px; padding-inline: 35px;"><b>Buy Now</b></button>
+                    </div>
+                </div>
+                <div class="card" style="background-color: rgb(255, 255, 255); padding: 50px; border-width: 1px; border-color: rgba(195, 194, 194, 0.5); border-radius: 20px;s">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: darkslateblue;">Developer Plan</h5>
+                        <h1 style="font-size: 50px; color: skyblue;"><sup>$</sup>49 <sub style="font-size: 15px; color: slategray;">/ month</sub></h1>
+                        <ul class="list-unstyled" style="color: slategray;">
+                            <li><i class="text-success bi bi-check h4"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="text-success bi bi-check h4"></i>Nulla at volutpat diam uteera</li>
+                            <li><i class="text-success bi bi-check h4"></i></i>Pharetra massa massa ultricies</li>
+                            <li><i class="text-success bi bi-check h4"></i></i>Massa ultricies mi quis hendrerit</li>
+                        </ul><br><br>
+                        <button type="button" class="btn btn-outline-info" style="border-radius: 20px; padding-inline: 35px;"><b>Buy Now</b></button>
+                    </div>
+                </div>                   
+            </div>
+        </section><br>
+        <section id="testimonials" style="align-items: center; width: 100%;">
+            <div class="container-fluid" style="align-items: center; padding-top: 5rem; width: 100%;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>TESTIMONIALS</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+                <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><br>
+            <div>
+                <swiper-container class="mySwiper" space-between="50" pagination="true" pagination-clickable="true" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                    <swiper-slide style="padding-bottom: 50px;">
+                        <div style="display: flex; position: relative;justify-content: center;">
+                            <img src="./testimonials-1.jpg" width="150px" style="border-radius: 100%;" alt="t1">
+                        </div>
+                        <div style="text-align: center; padding-inline: 250px;">
+                            <h4 class="text-primary">Saul Goodman</h4>
+                            <h6 class="text-secondary">CEO &amp; Founder</h6>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>
+                                <i class="fa fa-quote-left" style="color: skyblue;"></i>&nbsp;<i>Proin iaculis purus consequat sem cure 
+                                    digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, 
+                                    aliquam eget nibh et. Maecen aliquam, risus at semper.</i>&nbsp;
+                                    <i class="fa fa-quote-right" style="color: skyblue;"></i>
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide style="padding-bottom: 50px;">
+                        <div style="display: flex; position: relative;justify-content: center;">
+                            <img src="./testimonials-2.jpg" width="150px" style="border-radius: 100%;" alt="t1">
+                        </div>
+                        <div style="text-align: center; padding-inline: 250px;">
+                            <h4 class="text-primary">Sara Wilsson</h4>
+                            <h6 class="text-secondary">Designer</h6>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>
+                                <i class="fa fa-quote-left" style="color: skyblue;"></i>&nbsp;<i>Export tempor illum tamen malis malis
+                                    eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt 
+                                    aliqua noster fugiat irure amet legam anim culpa.</i>&nbsp;
+                                    <i class="fa fa-quote-right" style="color: skyblue;"></i>
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide style="padding-bottom: 50px;">
+                        <div style="display: flex; position: relative;justify-content: center;">
+                            <img src="./testimonials-3.jpg" width="150px" style="border-radius: 100%;" alt="t1">
+                        </div>
+                        <div style="text-align: center; padding-inline: 250px;">
+                            <h4 class="text-primary">Jena Karlis</h4>
+                            <h6 class="text-secondary">Store Owner</h6>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>
+                                <i class="fa fa-quote-left" style="color: skyblue;"></i>&nbsp;<i>Enim nisi quem export duis labore 
+                                    cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster 
+                                    aute amet eram fore quis sint minim.</i>&nbsp;
+                                    <i class="fa fa-quote-right" style="color: skyblue;"></i>
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide style="padding-bottom: 50px;">
+                        <div style="display: flex; position: relative;justify-content: center;">
+                            <img src="./testimonials-4.jpg" width="150px" style="border-radius: 100%;" alt="t1">
+                        </div>
+                        <div style="text-align: center; padding-inline: 250px;">
+                            <h4 class="text-primary">Matt Brandon</h4>
+                            <h6 class="text-secondary">Freelancer</h6>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>
+                                <i class="fa fa-quote-left" style="color: skyblue;"></i>&nbsp;<i>Fugiat enim eram quae cillum dolore 
+                                    dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim
+                                    magna sunt elit fore quem dolore labore illum veniam.</i>&nbsp;
+                                    <i class="fa fa-quote-right" style="color: skyblue;"></i>
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide style="padding-bottom: 50px;">
+                        <div style="display: flex; position: relative;justify-content: center;">
+                            <img src="./testimonials-5.jpg" width="150px" style="border-radius: 100%;" alt="t1">
+                        </div>
+                        <div style="text-align: center; padding-inline: 250px;">
+                            <h4 class="text-primary">John Larson</h4>
+                            <h6 class="text-secondary">Entrepreneur</h6>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>
+                                <i class="fa fa-quote-left" style="color: skyblue;"></i>&nbsp;<i>Quis quorum aliqua sint quem legam
+                                    fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla 
+                                    illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</i>&nbsp;
+                                    <i class="fa fa-quote-right" style="color: skyblue;"></i>
+                            </p>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </section>
+        <section id="faq" style="align-items: center; width: 100%;">
+            <div class="container-fluid" style="align-items: center; padding-top: 5rem; width: 100%;">
+                <h2 style="color: darkblue; text-align: center;">
+                    <b>FREQUENTLY ASKED QUESTIONS</b>
+                </h2>
+                <div>
+                    <hr class="colored">
+                </div>
+                <p style="text-align: center; padding-inline: 100px;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                    Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. 
+                    Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div><br>
+            <div>
+                <div class="accordion" id="accordionPanelsStayOpenExample" style="border: none; border-width: 0px; padding-inline: 225px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <b>01 Non consectetur a erat nam at lectus urna duis?</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <b>02 Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                <b>03 Dolor sit amet consectetur adipiscing elit pellentesque?</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="./multislider/js/jquery-2.2.4.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <!-- Include Multislider -->
     <script src="./multislider/js/multislider.min.js"></script>
-
     <!-- Initialize element with Multislider -->
     <script>
         $('#exampleSlider').multislider({
-            interval: 3000,
-            slideAll: true,
-            duration: 2000
+            interval: 1500,
+            slideAll: false,
+            duration: 1000,
         });
     </script>
-    <style>
-        #abt-img {
-            max-width: 546px;
-            min-width: 0px;
-            position: relative;
-            animation: move 8s infinite;
-        }
-
-        @keyframes move {
-            0% {
-                top: 0;
-            }
-
-            50% {
-                top: 25px;
-            }
-
-            100% {
-                top: 0;
-            }
-
-
-        }
-    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
-
 </html>
